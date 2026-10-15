@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">HHP Radio</string>
+    <string name="app_subtitle">วิทยุสื่อสารผ่านอินเทอร์เน็ต Push-to-Talk</string>
+
+    <!-- Permission Screen -->
+    <string name="permission_mic_title">อนุญาตให้เข้าถึงไมโครโฟน</string>
+    <string name="permission_mic_desc">HHP Radio จำเป็นต้องใช้ไมโครโฟนเพื่อส่งเสียงพูดไปยังสมาชิกในช่องวิทยุที่เชื่อมต่ออยู่ ระบบจะใช้ไมโครโฟนเมื่อเริ่มใช้งานฟังก์ชันส่งเสียงตามสถานะและสิทธิ์ที่ Android อนุญาต</string>
+    <string name="permission_allow_button">อนุญาตไมโครโฟน</string>
+    <string name="permission_deny_button">ยังไม่อนุญาต</string>
+    <string name="permission_permanently_denied_title">สิทธิ์ไมโครโฟนถูกปิดอยู่</string>
+    <string name="permission_permanently_denied_desc">คุณได้ปฏิเสธสิทธิ์การเข้าถึงไมโครโฟน กรุณาไปที่หน้าการตั้งค่าแอปพลิเคชันของ Android เพื่อเปิดสิทธิ์การบันทึกเสียงให้ HHP Radio</string>
+    <string name="permission_open_settings">เปิดการตั้งค่าแอป</string>
+    <string name="permission_status_granted">อนุญาตแล้ว</string>
+    <string name="permission_status_denied">ยังไม่อนุญาต</string>
+
+    <!-- Radio States -->
+    <string name="status_connected">เชื่อมต่อแล้ว</string>
+    <string name="status_connecting">กำลังเชื่อมต่อ…</string>
+    <string name="status_disconnected">ตัดการเชื่อมต่อแล้ว</string>
+    <string name="status_error">ข้อผิดพลาด</string>
+    <string name="status_no_server">ยังไม่ได้ตั้งค่าเซิร์ฟเวอร์</string>
+
+    <!-- PTT States -->
+    <string name="ptt_ready">กดค้างเพื่อส่งเสียง (PTT)</string>
+    <string name="ptt_pressed">กำลังเตรียมไมโครโฟน…</string>
+    <string name="ptt_transmitting">กำลังส่งเสียงพูด (TX)</string>
+    <string name="ptt_receiving">กำลังรับสัญญาณเสียง (RX)</string>
+    <string name="ptt_busy">ช่องสัญญาณไม่ว่าง มีผู้อื่นกำลังพูด</string>
+    <string name="ptt_error">ไม่สามารถส่งเสียงได้</string>
+    <string name="ptt_mic_permission_needed">ต้องการสิทธิ์ไมโครโฟน</string>
+    <string name="ptt_tap_to_toggle">แตะเพื่อเปิด/ปิดเสียง</string>
+
+    <!-- Navigation -->
+    <string name="nav_radio">วิทยุ</string>
+    <string name="nav_channels">ช่องสัญญาณ</string>
+    <string name="nav_servers">เซิร์ฟเวอร์</string>
+    <string name="nav_audio">ระบบเสียง</string>
+    <string name="nav_keys">ปุ่มลัด PTT</string>
+    <string name="nav_settings">ตั้งค่า</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">HHP Radio สถานะการทำงาน</string>
+    <string name="notif_channel_desc">แจ้งเตือนสถานะการเชื่อมต่อวิทยุสื่อสารในเบื้องหลัง</string>
+    <string name="notif_action_disconnect">ตัดการเชื่อมต่อ</string>
+    <string name="notif_connected_format">เชื่อมต่อช่อง %1$s</string>
+    <string name="notif_transmitting">กำลังส่งเสียงพูด…</string>
+    <string name="notif_receiving">รับฟังเสียง: %1$s</string>
+</resources>

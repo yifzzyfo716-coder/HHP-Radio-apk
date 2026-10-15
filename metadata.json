@@ -1,0 +1,6 @@
+{
+  "name": "HHP Radio",
+  "description": "Internet Push-to-Talk walkie-talkie radio system with real-time voice, channels, and key bindings",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
